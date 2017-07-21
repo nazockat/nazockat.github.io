@@ -1,0 +1,78 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display" rel="stylesheet">
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Hemsidans titel</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+      <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+ <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+             <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-ice-lolly-tasted">
+                <a class="navbar-brand" href="index.html">Prika</a>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="menyval1.html">cakes</a></li>
+                    <li><a href="menyval2.html">cupcakes</a></li>
+                    <li><a href="menyval3.html">smoothies</a></li>
+
+                    </ul>
+                     </div>
+                      </nav>
+ <div class="container">
+ <div class="row">
+<div class="col-sm-8">                     
+<h2>Cupcake ingredients</h2>                      
+
+<ul>
+<li><h3>Red velvet cupcake</li></h3>
+<h4>50g butter, 4 egg, 2 tablespoon of red food coloring, 5dl flour, 5 tablespoons of cocoa, 1 teaspoon of salt, 1 teaspoon baking soda, 2 tablespoon vanilla sugar, 3dl powdered sugar.</h4>
+  
+<li><h3>Vanilla cupcake</li></h3>
+<h4>150g butter, 4 egg, 5dl flour, 2dl milk, 1 teaspoon vanilla sugar, 2 teaspoon baking soda.</h4>
+
+<li><h3>Chocolate cupcake</li></h3>
+<h4>4dl flour, 1,8dl sugar, 1dl cocao, 1 egg, 3dl milk, 1 egg, 100g dark chocolate, 4 teaspoon baking soda, 1 teaspoon vanilla sugar, 1dl margarine.</h4>
+
+<li><h3>Chocolate and srawberry cupcake</li></h3>
+<h4>125g butter, 2 egg, 250g kvarg vanilla, 75g dark chocolate, 150g fresh strawberrys, 1dl powder sugar, 2dl baking soda, coconut flakes.</h4>
+
+<li><h3>blueberry and raspberry cupcake</li></h3>
+<h4>50g butter, 3 egg, 1dl milk, 4dl flour,4dl fresh raspberrys and blueberrys, 2dl powder sugar, 2 teaspoon baking soda.</h4>
+
+</h3>
+</ul>
+</div>
+<div class="col-sm-4">
+<img src="bilder/pexels-photo-134575.jpeg" class="cupcake" />
+        
+</div>
+</div>
+<H5 id="centir"> Prika AB, email: info@LaPrika.se, address: Ekshäradsgatan 81, Farsta 123 46, Sweden</H5>
+</div>
+</body>
+</html>

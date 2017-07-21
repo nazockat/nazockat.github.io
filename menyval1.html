@@ -1,0 +1,80 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display" rel="stylesheet">
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Hemsidans titel</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+        <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+ <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+             <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-ice-lolly-tasted">
+                <a class="navbar-brand" href="index.html">Prika</a>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="menyval1.html">cakes</a></li>
+                    <li><a href="menyval2.html">cupcakes</a></li>
+                    <li><a href="menyval3.html">smoothies</a></li>
+
+                </ul>
+            </div>
+       </nav>
+ <div class="container">
+ <div class="row">
+<div class="col-sm-8">              
+<H2>Cake ingredients</H2>
+
+<ul>
+    
+<li><h3>Mountain chocolate cake</li></h3>
+<h4>3 egg, 3dl powder sugar, 2 teaspoon vanilla suger, 1dl cocoa, 2dl flour, 1dl nuts, 2dl minimarshmallows, 100g dark chocolate, coconut flakes.</h4> 
+
+<li><h3>Cake pops with gingerbread cookies</li></h3>
+<h4>10 barbecue sticks, 25 gingerbread cookies, 1dl kvarg, 200g dark chocolate, 1dll powder sugar.</h4>
+
+<li><h3>Red velvet cake</li></h3>
+<h4>2 egg, 3dl powder sugar, 3dl flour, 1 teaspoon salt, 1 tablespoon cocoa, 1 teaspoon vanilla suger, 2dl milk, 2 tablespoon red food coloring, 1dl rapeseed oil.</h4>
+
+<li><h3>Lemon bundt cake</li></h3>
+<h4>6dl flour, 1 teaspoon salt, 175g butter, 5dl powder sugar, 5 egg, 1 lemon, 1dl 
+sour cream, 1 teaspoon 
+bicarbonate. </h4>
+
+<li><h3>Kladdkaka</li></h3>
+<h4>100g butter, 2 egg, 1dl flour, 3 tablespoon cocoa, 1 teaspoon vanilla sugar.</h4>
+    </h3>
+</ul>
+</div>
+<div class="col-sm-4">
+<img src="bilder/pexels-photo-508829 2.jpeg" class="cake" />
+</div>
+</div>
+<H5 id="centar"> Prika AB, email: info@LaPrika.se, address: Ekshäradsgatan 81, Farsta 123 46, Sweden</H5>
+</div>
+
+</body>
+</html>

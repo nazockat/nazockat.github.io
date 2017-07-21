@@ -1,0 +1,110 @@
+.navbar-inverse {
+    background-color:lightblue;
+}
+
+.navbar-inverse .navbar-brand {
+    color:#426ef4 ;
+    font-family:
+    font-size: 22px;
+   }
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+    font-size: 20px;
+}
+
+
+body {
+    background-color:white;
+  font-family: 'Playfair Display', serif;
+}
+
+#cupcakes {
+	width: 100%;
+	margin-top: 
+
+
+}
+
+}
+p, h1 {
+    font-family: arial;
+    color: red;
+}
+
+.smobild{
+	width: 350px;
+	height: 300px;
+	margin-top: 145px;
+}
+
+.cupcake{
+width: 350px;
+height: 250px;
+margin-top: 145px;
+}
+
+.cake{
+width: 350px;
+height: 250px;
+margin-top: 40px;
+}
+
+
+.smoothie{
+width: 30%;
+height: 240px;
+margin-left: 30px;
+}
+
+.acake{
+width: 30%;
+height: 240px;
+margin-left: 30px;
+}
+
+.cup{
+
+ width:30%;
+ height: 240px;
+margin-left: 30px;
+}
+
+#startsida {
+    background-color: lightblue;
+}
+
+#centers{
+	text-align: center;
+}
+
+
+
+#center{
+	text-align: center;
+	margin-top: 44px;
+}
+
+#centar{
+	text-align: center;
+	mask-top: 44px 
+}
+
+#centir{
+	text-align: center;
+	mask-top: 44px
+}
+
+
+.glyphicon{
+	font-size: 25px;
+	color:#5341f4;
+	margin-right:-20px;
+}
+
+
+
+
+
+
+
